@@ -6,8 +6,7 @@ String maclist[64][3];
 int listcount = 0;
 
 String KnownMac[10][2] = {  // Put devices you want to be recognized
-  {"XPS-15","44:1C:A8:E2:36:23"},
-  {"Winston's Iphone","3E:A6:4A:DD:8F:AC"},
+  {"Example Device","FF:FF:FF:FF:FF:FF"},
 };
 
 String defaultTTL = "30"; // Maximum time (Apx seconds) elapsed before device is considered offline
